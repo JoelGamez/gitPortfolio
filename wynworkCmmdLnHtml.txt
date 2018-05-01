@@ -1,0 +1,45 @@
+
+***************************************HTML******************************************
+What are some common attributes you’d use on the following HTML elements:
+
+<img/>
+
+<a>link</a>
+
+<form></form>
+
+<script></script>
+
+<input>
+
+
+
+
+```bash
+<img/> attribute : src
+<a>link</a> atrributes are: type , href , and rel
+<form></form> attribute : action
+<script></script> attribute: type
+<input> attributes are: type, name, and value
+```
+
+
+
+**********************COMMAND LINE************************
+
+
+Without changing directories, add another directory inside the lime directory you previously created and call it fresh.
+
+Within fresh create a hello_world.txt file.
+
+Now move the hello_world.txt file in the coconut directory.
+
+Do this all without using cd, and using no more than three commands.
+
+
+
+
+
+mkdir -p coconut/lime/fresh
+touch coconut/lime/fresh/hello_world.txt
+mv coconut/lime/fresh/hello_world.txt coconut/
